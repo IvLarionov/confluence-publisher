@@ -46,14 +46,11 @@
                 <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
                 <configuration>
                     <asciidocRootFolder>etc/docs</asciidocRootFolder>
-                    <rootConfluenceUrl>${rootConfluenceUrl}</rootConfluenceUrl>
-                    <spaceKey>${spaceKey}</spaceKey>
-                    <ancestorId>${ancestorId}</ancestorId>
-                    <username>${username}</username>
-                    <password>${password}</password>
-                    <attributes>
-                        <confluencePublisherVersion>${project.version}</confluencePublisherVersion>
-                    </attributes>
+                    <rootConfluenceUrl>https://ilarionov.atlassian.net/wiki</rootConfluenceUrl>
+                    <spaceKey>TEST</spaceKey>
+                    <ancestorId>21037214</ancestorId>
+                    <username>xlebnica.booroop@gmail.com</username>
+                    <password>4JjFMYul0gIgrbxzOzSw0613</password>	
                 </configuration>
             </plugin>
         </plugins>
